@@ -1,0 +1,24 @@
+Admin:
+- category(done)
+- course(done)
+- student manager( done)
+- teacher manager (done)
+- employee manager(done)
+- login, logout(done)
+- còn student acc, teacher acc(done)
+CLient
+	index: done
+	full page: done
+Teacher page:(doing)
+	- student manage( done)
+	- test manage( not done)
+	all page (99%);
+
+	teacher:
+
+    quản lý lộ trình học của sinh viên
+
+    sinh viên:
+    	+ nộp bài ( done)
+    	+ đky, đăng nhập --done
+    	+ qly khóa học của bản thân ( thêm)

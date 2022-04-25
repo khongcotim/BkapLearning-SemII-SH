@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Coniguration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:sqlserver://localhost:1433;database=course_manager</property>
+    <property name="connection.username">sa</property>
+    <property name="connection.password">pvl1933</property>
+    <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping class="com.entity.Admin"/>
+    <mapping class="com.entity.Category"/>
+    <mapping class="com.entity.Employee"/>
+    <mapping class="com.entity.Marks"/>
+    <mapping class="com.entity.StudentsAccount"/>
+    <mapping class="com.entity.Students"/>
+    <mapping class="com.entity.Teachers"/>
+    <mapping class="com.entity.TeacherAccount"/>
+    <mapping class="com.entity.Course"/>
+
+  </session-factory>
+</hibernate-configuration>
